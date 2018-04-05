@@ -15,6 +15,7 @@ public class HelloExample{
 	
 	private void runMe(String parameter){
 		
+		System.out.println("*****************");
 		if(logger.isDebugEnabled()){
 			logger.debug("This is debug : " + parameter);
 		}
